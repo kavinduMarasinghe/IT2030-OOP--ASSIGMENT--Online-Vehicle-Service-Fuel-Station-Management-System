@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+body{
+	overflow-x: hidden;
+}
+
+.border-div{
+	display: flex;
+	background-color:white;
+	border-radius:20px;
+	box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+    margin-top:50px;
+    margin-left:100px;
+    padding-right:100px;
+    align-items: center;
+    gap: 130px;
+    width:fit-content;
+   
+}
+
+.side-img{
+	height:600px;
+	width:580px;
+
+}
+.pack-text{
+	width:400px;
+	margin-left:100px;
+}
+
+.bold-text{
+	   font-family: "Outfit", sans-serif;
+	   font-weight:800px;
+	   font-size:40px;
+}
+.para{
+	font-family: "Lora", serif;
+	margin-left: -10px;
+}
+
+span {
+	color: rgb(140, 105, 122);
+}
+
+.pack-img{
+	width:100px;
+	height: 100px;
+	padding-left: 50px;
+	padding-top: 20px;
+	margin-top:30px;
+}
+
+.pack-img-g{
+	height:150px;
+	width:150px;
+	margin-left:50px;
+}
+
+.pack-img-e{
+	width:120px;
+	height: 120px;
+	padding-left: 60px;
+	padding-top: 20px;
+	
+}
+
+.pack-img-eu{
+	width:110px;
+	height: 110px;
+	padding-left: 60px;
+	padding-top: 20px;
+	
+}
+.pack-container{
+	margin-top: 100px;
+	margin-left:100px;
+	display:flex;
+	border-radius: 50px;
+	gap: 50px;
+	padding-bottom: 50px;
+}
+.pack1 , .pack2 , .pack3 , .pack4{
+	background-color: rgb(221, 160, 221);
+	box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+	width:250px;
+	height:550px;
+	border: black;
+	border-radius:20px;
+	padding-bottom: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+	cursor:pointer;
+	
+}
+
+p{
+	font-family: "Lora", serif;
+	margin-top:-20px;
+	margin-left: 30px;
+	padding-right: 30px;
+	 line-height: 1.7;
+	
+}
+
+.top{
+	font-family: "Outfit", sans-serif;
+	font-weight: 400px;
+	color: Black;
+	font-size: 20px;
+	margin-left:18px;
+	
+}
+
+.para-g{
+	margin-top:-25px;
+	 line-height: 1.7;
+}

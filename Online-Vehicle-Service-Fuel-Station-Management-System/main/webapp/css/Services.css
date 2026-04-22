@@ -1,0 +1,153 @@
+@charset "UTF-8";
+body{
+	overflow-x: hidden;
+}
+
+
+.head-div {
+  position: relative;
+  width: fit-content; /* Or set a fixed width */
+}
+
+.head-div img {
+  width: 100vw; /* Adjust as needed */                                                                                                                                                                                                                                                                                                                                
+  height: 400px;
+                                                                                                                                        
+}
+
+.service-text {
+  color: rgb(110, 75, 92);
+   font-family: "Outfit", sans-serif;
+  position: absolute;
+  margin-top: 90px;
+  margin-left:945px;
+  transform: translate(-50%, -50%);/* Or another contrasting color */
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.service-1 img {
+	width: 500px;
+	height: 650px;
+	margin-top: 100px;
+	margin-left: 140px;
+	border-radius: 20px;
+	
+}
+
+.service-1 {
+  display: flex;
+  align-items: center;
+  gap: 150px; /* optional spacing between image and text */
+  padding: 20px;
+}
+
+.service-1-text {
+  max-width: 600px;
+}
+
+.service-1-text h1 {
+	font-family: "Outfit", sans-serif;
+  margin-top:50px;
+  margin-bottom: 5px;
+  font-size: 40px;
+}
+
+.service-1-text p {
+	 margin-top: 10px;
+	font-family: "Lora", serif;
+  line-height: 1.6;
+  width: 450px;
+  white-space: pre-line; /* preserves line breaks in <p> */
+}
+
+.service-1 img {
+	width: 500px;
+	height: 650px;
+	margin-top: 100px;
+	margin-left: 140px;
+	border-radius: 20px;
+	
+}
+
+
+.service-2 {
+  display: flex;
+  align-items: center;
+  margin-left: 180px;
+  padding: 20px;
+  gap: 130px;
+  margin-top:-70px;
+}
+
+.service-2-text {
+  max-width: 600px;
+}
+
+.service-2-text h1 {
+   font-family: "Outfit", sans-serif;
+  margin-top:60px;
+  margin-bottom: -13px;
+  font-size: 40px;
+}
+
+.service-2-text p {
+	font-family: "Lora", serif;
+  line-height: 1.6;
+  width:450px;
+  white-space: pre-line; /* preserves line breaks in <p> */
+}
+
+.service-2 img {
+	width: 500px;
+	height: 650px;
+	margin-top: 100px;
+	border-radius: 20px;
+	
+}
+
+
+.service-3 {
+	margin-top:-80px;
+  display: flex;
+  align-items: center;
+  gap: 150px; /* optional spacing between image and text */
+  padding: 20px;
+}
+
+.service-3-text {
+  max-width: 600px;
+}
+
+.service-3-text h1 {
+	font-family: "Outfit", sans-serif;
+	margin-top:130px;
+  margin-bottom: 5px;
+  font-size: 40px;
+}
+
+.service-3-text p {
+	font-family: "Lora", serif;
+  line-height: 1.6;
+  width:450px;
+  white-space: pre-line; /* preserves line breaks in <p> */
+}
+
+.service-3 img {
+	width: 500px;
+	height: 650px;
+	margin-top: 100px;
+	margin-left: 140px;
+	border-radius: 20px;
+	
+}.topics {
+	font-weight:800;
+	font-size:18px;
+	font-family: "Lora", serif;
+	color: rgb(110, 75, 92);
+}
+
+
+
+
+
